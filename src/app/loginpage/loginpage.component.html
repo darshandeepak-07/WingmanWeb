@@ -1,0 +1,15 @@
+
+<body>
+  
+<form (ngSubmit)="login()">
+    <h1>Wingman Admin</h1>
+    <label for="username">Username</label>
+    <input type="text" id="username" [(ngModel)]="username" name="username" required>
+  
+    <label for="password">Password</label>
+    <input type="password" id="password" [(ngModel)]="password" name="password" required>
+  
+    <button type="submit">LOGIN</button>
+  </form>
+  
+</body>

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    cursor:pointer;
+}
+.horiz{
+  display: flex;
+  justify-content: space-between;
+}
+h1{
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+/* your-component.component.css */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+  }
+  
+  .card-header {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    margin-top: 8px;
+  }
+  .button-container {
+    display: flex;
+    gap: 8px;
+  }
+
+  .gra{
+    background: rgb(141, 221, 21);
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    border:none;
+    display: flex;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30%;
+  }
+  p,h2{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .dec{
+    background: rgb(150, 44, 44);
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    display: flex;
+    border:none;
+    outline: none;
+    border-radius: 30%;
+    font-family: 'Poppins', sans-serif;
+  }

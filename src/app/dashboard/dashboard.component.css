@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    cursor:pointer;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.column{
+    float:left;
+    width:30%;
+    padding:0 10px;
+}
+
+.row{
+    margin:0 -5px;
+}
+.b{
+    background: rgb(0, 130, 252);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10%;
+    justify-content: right;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+.card{
+    box-shadow:0 4px 8px 0 rgba(2, 67, 220, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+   
+
+    border-bottom: 2px solid rgb(246, 205, 0);
+   border-top:2px solid rgb(0, 145, 255);
+   border-right: 2px solid rgb(0, 252, 0);
+   border-left: 2px solid magenta;
+}
+.card:hover{
+    box-shadow:0 4px 8px 0 rgba(0, 72, 240, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    background: rgb(255, 77, 1);
+    color:rgb(255, 255, 255);
+    transition: 0.3s ease-in;
+   
+   border-left:5px solid rgb(0, 145, 255);
+   border-top: 5px solid rgb(0, 252, 0);
+
+   .b{
+    background: white;
+    color: black;
+   }
+}
+.card1{
+    box-shadow:0 4px 8px 0 rgba(2, 67, 220, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    
+    
+    border-top: 2px solid rgb(246, 205, 0);
+   border-bottom:2px solid rgb(0, 145, 255);
+   border-left: 2px solid rgb(0, 252, 0);
+   border-right: 2px solid magenta;
+}
+.card1:hover{
+    box-shadow:0 4px 8px 0 rgba(2, 67, 220, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    
+    background: rgb(54, 149, 11);
+    color:white;
+    transition: 0.3s ease-in;
+    
+   border-left:5px solid rgb(0, 145, 255);
+   
+   border-bottom: 5px solid rgb(243, 243, 243);
+   .b{
+    background: white;
+    color: black;
+   }
+}
+
+.card2{
+    box-shadow:0 4px 8px 0 rgba(2, 67, 220, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    
+
+    border-right: 2px solid rgb(246, 205, 0);
+   border-left:2px solid rgb(0, 145, 255);
+   border-top: 2px solid rgb(0, 252, 0);
+   border-bottom: 2px solid magenta;
+}
+.card2:hover{
+    box-shadow:0 4px 8px 0 rgba(2, 67, 220, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    background: rgb(0, 145, 255);
+    color:white;
+    transition: 0.3s ease-in;
+
+   
+   border-bottom:5px solid rgb(0, 0, 0);
+   border-right: 5px solid rgb(0, 252, 0);
+  
+   .b{
+    background: white;
+    color: black;
+   }
+}

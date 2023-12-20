@@ -1,0 +1,28 @@
+<div class="horiz">
+<h1>Requests</h1>
+<mat-form-field>
+  <input matInput [matDatepicker]="picker" [formControl]="chosenDateControl" (dateChange)="onDateChange($event)" placeholder="Choose a Date">
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+</div>
+<div class="card-container">
+  <p id="res" [hidden]="!isVisible"></p>
+    <div *ngFor="let item of dataList" class="card">
+      <div class="card-header">
+       
+        <h2>{{ item.roll }}</h2>
+      </div>
+      <div class="card-body">
+       
+        <p>Name: {{ item.name }}</p>
+        <p>Reason: {{item.reason}}</p>
+        <p>Time: {{item.time}}</p>
+        <p>Status: {{item.state}}</p>
+        <div class="button-container">
+            <button class="gra" (click)="onGrant(item)">Grant</button>
+            <button class="dec" (click)="onDecline(item)">Decline</button>
+          </div>
+      </div>
+    </div>
+  </div>
